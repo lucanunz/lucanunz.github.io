@@ -2,18 +2,17 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Luca Nunziante # the website title (if blank, full name will be used instead)
 first_name: Luca
 last_name: Nunziante
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Feel free to reach out by email — that's the best way to get in touch.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Robot learning researcher working on Vision-Language-Action (VLA) models and imitation/reinforcement learning for robot manipulation.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: robot learning, robotics, imitation learning, reinforcement learning, vision-language-action, manipulation, Luca Nunziante # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -121,8 +120,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: blog # blog_name will be displayed in your blog page
+blog_description: notes on robot learning and research
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -216,6 +215,8 @@ kramdown:
 include: ["_pages"]
 exclude:
   - al-folio-upgrade-report.md
+  - BLOG_SETUP.md
+  - PROJECTS_SETUP.md
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -340,8 +341,10 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  # Leave these empty so your own name is not emphasized/highlighted in the
+  # publication author lists (it renders as plain "Luca Nunziante" like everyone else).
+  last_name: [Nunziante]
+  first_name: [Luca, L.]
 
   style: apa
   locale: en
@@ -404,7 +407,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
