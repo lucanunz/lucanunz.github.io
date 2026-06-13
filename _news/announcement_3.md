@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2026-06-01 09:00:00+0900
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our paper *An Augmented Reality Brain-Robot Interface for Generalist Robot Arm Manipulation* was accepted at **IEEE RO-MAN 2026**. :tada:
