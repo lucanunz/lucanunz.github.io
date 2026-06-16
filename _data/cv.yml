@@ -63,14 +63,25 @@ cv:
           - "Thesis: Object detection with Neural Networks for robotics applications: training methods compared (Supervisor: Prof. C. Natale)."
 
     Projects:
-      - name: Resolving Uncertainty in Robotic Manipulation with Vision-Language Models and Conformal Prediction
-        start_date: 2025-11-01
-        end_date: 2025-11-01
+      - name: VLA Latent Space Investigation
+        start_date: 2026-01-01
+        end_date: 2026-01-01
         summary: >
-          A Vision Language Model is employed for robot planning, and response
-          uncertainty is quantified using Conformal Prediction. The resulting plans
-          are executed using an imitation learning policy. A user interface was also
-          developed to facilitate interaction with a real robot.
+          Following an existing paper, I set up a failure detection system for the
+          VLA based on the VLA internal features. Then, I wondered if those features
+          are only informative or can also be controlled in some way: I investigated
+          some ways to intervene in the latent space to reduce the failure cases.
+
+      - name: Advantage Conditioned VLA Learning
+        start_date: 2025-12-01
+        end_date: 2025-12-01
+        summary: >
+          After training a VLA, I collected rollouts and, following an existing work,
+          I passed the frames to a pretrained VLM to predict value labels in a
+          zero-shot manner. Then, I converted those values in advantages and retrained
+          the VLM conditioning on those advantages. However, after inspection, the
+          quality of the produced annotation was too poor and noisy to yield
+          performance improvements.
 
     Skills:
       - name: Languages
