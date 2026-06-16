@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper *Levels of shared autonomy in brain-robot interfaces* was published in **Frontiers in Human Neuroscience**. :brain: :robot:
+Our paper *Levels of shared autonomy in brain-robot interfaces* was published in **Frontiers in Human Neuroscience**. Check out the [website](https://coopopen.github.io/) :brain: :robot:

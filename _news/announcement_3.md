@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper *An Augmented Reality Brain-Robot Interface for Generalist Robot Arm Manipulation* was accepted at **IEEE RO-MAN 2026**. :tada:
+Our paper *An Augmented Reality Brain-Robot Interface for Generalist Robot Arm Manipulation* was accepted at **IEEE RO-MAN 2026** Link to the [paper](https://arxiv.org/abs/2606.16413) and [website](https://ar-bri-manip.github.io/). :tada:
