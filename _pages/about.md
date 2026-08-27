@@ -32,4 +32,3 @@ Working on Vision-Language-Action (VLA) models and imitation/reinforcement learn
 Former visiting research student at [Tohoku University](https://www.tohoku.ac.jp/en/), where I worked on compliant control and Model Predictive Control for robotic assembly in space applications.
 
 MSc in Artificial Intelligence and Robotics from [Sapienza University of Rome](https://www.uniroma1.it/en) with highest grade.
-# and a BSc in Electronic and Computer Engineering from the [University of Campania Luigi Vanvitelli](https://www.unicampania.it/), both *cum laude*.
