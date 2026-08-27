@@ -29,8 +29,7 @@ latest_posts:
 
 Working on Vision-Language-Action (VLA) models and imitation/reinforcement learning for robot manipulation.
 
-Former visiting research student at [Tohoku University](https://www.tohoku.ac.jp/en/), where I worked on compliant control and perception for robotic assembly in space applications.
+Former visiting research student at [Tohoku University](https://www.tohoku.ac.jp/en/), where I worked on compliant control and Model Predictive Control for robotic assembly in space applications.
 
-MSc in Artificial Intelligence and Robotics from [Sapienza University of Rome](https://www.uniroma1.it/en) and a BSc in Electronic and Computer Engineering from the [University of Campania Luigi Vanvitelli](https://www.unicampania.it/), both *cum laude*.
-
-My research interests sit at the intersection of learning-based and model-based robotics: VLA models, imitation and reinforcement learning, low-level control, and getting all of it to work reliably on real hardware.
+MSc in Artificial Intelligence and Robotics from [Sapienza University of Rome](https://www.uniroma1.it/en) with highest grade.
+# and a BSc in Electronic and Computer Engineering from the [University of Campania Luigi Vanvitelli](https://www.unicampania.it/), both *cum laude*.

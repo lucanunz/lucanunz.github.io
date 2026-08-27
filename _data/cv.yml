@@ -3,13 +3,8 @@ cv:
   label: Robot Learning Researcher
   email: luca.nunziante1999@gmail.com
   location: Tokyo, Japan
+  website: https://lucanunz.github.io
   image: ""
-  summary: >
-    Robot learning researcher working on Vision-Language-Action (VLA) models and
-    imitation/reinforcement learning for manipulation, with hands-on experience
-    taking policies from simulation to real-world deployment on physical robots.
-    Comfortable across the full stack: low-level control, teleoperation and data
-    collection, model training, and deployment infrastructure.
 
   social_networks:
     - network: GitHub
@@ -25,10 +20,13 @@ cv:
         start_date: 2024-06-01
         end_date: present
         highlights:
-          - Develop imitation learning and reinforcement learning pipelines for robot manipulation built on VLA models.
-          - Built end-to-end training infrastructure for IL and RL on custom datasets, improving manipulation success rate by iterating and fixing edge cases encountered during deployment.
-          - Implemented low-level controllers (operational-space, CBF-based) and teleoperation interfaces enabling safe data collection and reliable real-world policy execution.
-          - Built custom MuJoCo simulation environments and the deployment infrastructure that transfers trained policies to physical hardware.
+          - Designed and executed a real-robot evaluation of six Vision-Language-Action (VLA) models, collecting tens of hours of teleoperation data and training and deploying every variant, resulting in ∼5,000 rollouts.
+          - Open sourcing all the policy rollouts across six models and spanning more than 20 robot hours. Top contributor at oopsie-data.com.
+          - Developed statistical analyses of task performance and trajectory quality beyond standard success-rate metrics.
+          - Built imitation-learning pipelines for robot manipulation, fine-tuning and deploying image- and point-cloud-based policies on physical robots across multiple projects.
+          - Open-sourced a VLA batched inference and kv-cache implementation that improved throughput by up to 40× for the DSRL algorithm.
+          - Implemented operational-space and Control Barrier Function-based controllers and teleoperation interfaces, enabling safe data collection and repeatable deployment of learned policies on physical robots.
+          - Developed custom MuJoCo simulation environments and robot-control interfaces used throughout a user study with 20+ participants.
 
       - company: Tohoku University
         position: Visiting Research Student
@@ -36,8 +34,8 @@ cv:
         start_date: 2023-12-01
         end_date: 2024-04-01
         highlights:
-          - Developed compliant control methods for robotic assembly tasks and perception systems for lunar applications.
-          - Built a dual-arm solar-panel assembly pipeline (MSc thesis project) that led to a peer-reviewed publication (SII 2025).
+          - Developed compliant control methods for robotic assembly tasks and a Model Predictive Control scheme for collision avoidance.
+          - Built a dual-arm solar-panel assembly pipeline as an MSc thesis project, leading to a peer-reviewed publication at SII 2025; project developed in ROS.
 
     Education:
       - institution: Sapienza University of Rome
@@ -49,7 +47,8 @@ cv:
         end_date: 2024
         score: "110/110 cum laude"
         highlights:
-          - "Thesis: Autonomous Assembly of Solar Panels by Dual Robot Arms in the Remote Space (Supervisors: Prof. A. De Luca, Prof. K. Yoshida)."
+          - "Thesis: Autonomous Assembly of Solar Panels by Dual Robot Arms in the Remote Space."
+          - "Supervisors: Prof. A. De Luca and Prof. K. Yoshida."
 
       - institution: University of Campania Luigi Vanvitelli
         location: Caserta, Italy
@@ -60,41 +59,46 @@ cv:
         end_date: 2021
         score: "110/110 cum laude"
         highlights:
-          - "Thesis: Object detection with Neural Networks for robotics applications: training methods compared (Supervisor: Prof. C. Natale)."
+          - "Thesis: Object Detection with Neural Networks for Robotics Applications: Training Methods Compared."
+          - "Supervisor: Prof. C. Natale."
 
     Projects:
+      - name: Policy Gradient RL on VLAs
+        start_date: 2026-07-01
+        end_date: 2026-07-01
+        summary: >
+          Running policy gradient RL on large VLAs on the OGBench dataset.
+
       - name: VLA Latent Space Investigation
         start_date: 2026-01-01
         end_date: 2026-01-01
         summary: >
-          Following an existing paper, I set up a failure detection system for the
-          VLA based on the VLA internal features. Then, I wondered if those features
-          are only informative or can also be controlled in some way: I investigated
-          some ways to intervene in the latent space to reduce the failure cases.
+          Reproduced a feature-based VLA failure detector and evaluated latent-space
+          interventions for modifying policy behavior in simulation. Measured their
+          impact on task success and found no consistent improvement in task success
+          rate.
 
-      - name: Advantage Conditioned VLA Learning
+      - name: Advantage-Conditioned VLA Learning
         start_date: 2025-12-01
         end_date: 2025-12-01
         summary: >
-          After training a VLA, I collected rollouts and, following an existing work,
-          I passed the frames to a pretrained VLM to predict value labels in a
-          zero-shot manner. Then, I converted those values in advantages and retrained
-          the VLM conditioning on those advantages. However, after inspection, the
-          quality of the produced annotation was too poor and noisy to yield
-          performance improvements.
+          Implemented a RECAP-style training pipeline using a pretrained VLM to
+          generate zero-shot value estimates from rollout observations, converted
+          the estimates into advantages, and fine-tuned a VLA conditioned on those
+          advantages.
 
     Skills:
-      - name: Languages
+      - name: Programming
         icon: fa-solid fa-code
-        keywords: "Python, C++, MATLAB, LaTeX"
+        keywords: "Python, C++, MATLAB"
 
-      - name: Libraries
+      - name: Libraries / Frameworks
         icon: fa-solid fa-cubes
         keywords: "PyTorch, MuJoCo, ROS, Eigen"
 
       - name: Tools
         icon: fa-solid fa-screwdriver-wrench
-        keywords: "git, Isaac Gym, Gazebo"
+        keywords: "Git, Isaac Gym, Gazebo"
 
     Languages:
       - name: Italian
