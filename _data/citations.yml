@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-05'
+  last_updated: '2026-09-07'
 papers:
   0XjgMocAAAAJ:2osOgNQ5qMEC:
     citations: 7
@@ -9,9 +9,9 @@ papers:
     citations: 9
     title: Assembling solar panels by dual robot arms towards full autonomous lunar base construction
     year: '2025'
-  0XjgMocAAAAJ:IjCSPb-OGe4C:
+  0XjgMocAAAAJ:Tyk-4Ss8FVUC:
     citations: 0
-    title: An Augmented Reality Brain-Robot Interface for Generalist Robot Arm Manipulation
+    title: 'When One Step Is Enough: An Empirical Study of Euler Integration in Flow-Matching Policies'
     year: '2026'
   0XjgMocAAAAJ:d1gkVwhDpl0C:
     citations: 6
@@ -21,3 +21,7 @@ papers:
     citations: 0
     title: Energy-based Residual for Collision Detection Using a Velocity Observer
     year: '2024'
+  0XjgMocAAAAJ:zYLM7Y9cAGgC:
+    citations: 0
+    title: An Augmented Reality Brain-Robot Interface for Generalist Robot Arm Manipulation
+    year: '2026'
