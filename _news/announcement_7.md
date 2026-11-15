@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Open Source of a system for **3D person detection in a robot frame** 📢. [See the X thread]({{ 'https://x.com/lucanunz/status/2081687173011808756' }}).
+Open Source of a system for **3D person detection in a robot frame** 📢. [See the X thread]({{ 'https://x.com/lucanunz/status/2081687173011808756' }}) and [github repo]({{ 'https://github.com/lucanunz/sam-3d-body-calibrated' }}).
